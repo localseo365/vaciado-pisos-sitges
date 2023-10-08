@@ -11,27 +11,30 @@
     <style>
         .whatsapp-button {
             position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 9999;
-            border: none;
-            outline: none;
-            cursor: pointer;
+            bottom: 10px;
+            right: 10px;
+            z-index: 1000;
+            font-size: 24px;
             border-radius: 50%;
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            padding: 10px 20px;
             background-color: #25D366;
             color: white;
-            font-size: 24px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s;
         }
 
-        .whatsapp-button:hover {
-            background-color: #128C7E;
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporción 16:9 */
+            padding-top: 25px;
+            height: 0;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -98,7 +101,7 @@
        <a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
        <div class="content">
         <div class="inner">
-         <h2>¿Qué coste tiene vaciar un piso de muebles?</h2>
+         <h2>¿Qué coste tiene vaciar un piso de muebles en Sitges?</h2>
          <p>En total, un servicio de vaciado de pisos en Sitges  suele tener un coste mínimo de entre 350 y 750 €. Dependiendo de cada caso puede llegar a alcanzar cifras de hasta 950 o 1500 €.</p>
          <ul class="actions">
           <li><a href="generic.html" class="button">Ver más</a></li>
@@ -111,7 +114,7 @@
     <!-- Two -->
      <section id="two" class="wrapper style3 fade-up">
       <div class="inner">
-       <h2>Servicios que prestamos</h2>
+       <h2>Servicios que prestamos en la zona del Garraf</h2>
        <p>¿Busca una empresa de confianza, seria y profesional para efectuar el vaciado de pisos, recogida de muebles, el vaciado de cuartos trasteros, locales y oficinas en Sitges ? ¡Somos su empresa! En MS Servicios somos una compañía seria y comprometida con nuestro trabajo. Contamos con años de experiencia en realizar vaciado de muebles, morralla y todo lo que no precisa tanto de su residencia, oficina, local, establecimiento, etc.</p>
        <div class="features">
         <section>
@@ -167,9 +170,9 @@
 <p>Proporcionamos en Sitges  el mejor servicio de recogida de muebles viejos, enseres y trastos. Nuestro equipo siempre es puntual y está preparado para trabajar. Recogemos todo tipo de muebles de casas, locales y apartamentos.</p>
 <p>Siempre estamos dispuestos a responder a su llamada, por lo que puede contar con nosotros en cualquier momento. Puede ponerse en contacto con nosotros las 24 horas del día, los 7 días de la semana, sin restricciones horarias.</p>
 <p>Contamos con un equipo de profesionales expertos en la materia que llevan años trabajando para ofrecerle un servicio integral. Ofrecemos servicios profesionales de retirada de trastos a precios asequibles. Nuestro equipo cuenta con todo el equipamiento necesario para realizar la tarea de forma rápida y eficaz.</p>
-        <pre><div class="”video-responsive”">
-<iframe  src="https://www.youtube.com/embed/8OJAzTtRoZ0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-</div>
+        <pre><div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/8OJAzTtRoZ0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    </div>
 <pre>
         </section>
        </div>
